@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Comoany.G01.DAL.Models
 {
-    internal class Department
+    public class Department
     {
         public int Id { get; set; }
 
