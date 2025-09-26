@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Comoany.G01.DAL.Data.Configurtions
 {
-    internal class DepartmentConfigurtions : IEntityTypeConfiguration<Department>
+    public class DepartmentConfigurtions : IEntityTypeConfiguration<Department>
     {
         public void Configure(EntityTypeBuilder<Department> builder)
         {
