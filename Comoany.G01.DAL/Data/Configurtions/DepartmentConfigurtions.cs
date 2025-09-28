@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Comoany.G01.DAL.Data.Configurtions
 {
-    public class DepartmentConfigurtions : IEntityTypeConfiguration<Department>
+    public class DepartmentConfigurtions : IEntityTypeConfiguration<Department> 
     {
         public void Configure(EntityTypeBuilder<Department> builder)
         {
-           builder.Property(D=>D.Id).UseIdentityColumn();
+           builder.Property(D=>D.Id).UseIdentityColumn(); 
         }
     }
 }
